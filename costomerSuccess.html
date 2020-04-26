@@ -10,6 +10,28 @@
       </head>
 
         <body>
+
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="home.html">Home</a>
+              <a href="services.html">Services</a>
+              <a href="product.html">Product</a>
+              <a href="costomerSuccess.html">Costomer Success</a>
+              <a href="about.html"> About</a>
+              <a href="contactUs.html">Contact</a>
+            </div>
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            <script>
+              function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+              }
+              
+              function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+              }
+              </script>
             
           <img src="">
             <h1 class= "main header">website tittle goes here</h1>
