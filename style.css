@@ -4,8 +4,8 @@ p {
   h1 {
  color: maroon;
      }
-  .main header {
-    color: teal;
+  .main_header {
+    color: rgb(62, 179, 179);
 }
   .title {                      
 text-transform: uppercase;
