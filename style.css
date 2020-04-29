@@ -2,10 +2,11 @@ p {
     font-family: Arial;
      }
   h1 {
- color: maroon;
+ color: red;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      }
   .main_header {
-    color: rgb(62, 179, 179);
+    color: silver;
 }
   .title {                      
 text-transform: uppercase;
