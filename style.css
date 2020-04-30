@@ -67,7 +67,12 @@ body {
   }
 
   .logo {
-    background-image: url("C:\projects\fourBprints\images\logo2 (1).png")
+    background-image: url("logo1.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
 
   .contact {
