@@ -2,20 +2,17 @@ p {
     font-family: Arial;
      }
   h1 {
- color: red;
+ color: black;
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      }
   .main_header {
-    color: silver;
+    color: black;
+    font-family: Arial;
 }
   .title {                      
 text-transform: uppercase;
 }
 
-body {
-    font-family: 'Lato', sans-serif;
-  }
-  
   .overlay {
     height: 100%;
     width: 0;
@@ -23,8 +20,8 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: black;
+    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -41,7 +38,7 @@ body {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: grey;
     display: block;
     transition: 0.3s;
   }
@@ -71,13 +68,102 @@ body {
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 500px;
     position: relative;
   }
 
   .contact {
-    font-size: 18px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-family: Arial;
     color: black;
     opacity: 0.8;
   }
+
+  #rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 150px;
+    height: 100px;  
+    border-color: blue;
+  
+    /* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 45px;
+}
+
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+
+
+
+
+
+
