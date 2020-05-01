@@ -30,7 +30,14 @@
             </div>
                    
             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-          
+            <script>
+              function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+              }
+              function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+              }
+              </script>
           
           <!-- The contact us form -->
           <div class="container">
@@ -39,14 +46,7 @@
                 <h1 class="xlarge-font"><b>Reach out to us!</b></h1>
                 <h1 class="large-font"><b></b></h1>
                 
-                <script>
-                  function openNav() {
-                    document.getElementById("myNav").style.width = "100%";
-                  }
-                  function closeNav() {
-                    document.getElementById("myNav").style.width = "0%";
-                  }
-                  </script>
+                
 
                 <p><span style="font-size:36px"></span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <button class="button">Download Application</button>
