@@ -2,7 +2,7 @@ p {
     font-family: Arial;
      }
   h1 {
- color: black;
+ color: white;
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      }
   .main_header {
@@ -13,6 +13,23 @@ p {
 text-transform: uppercase;
 }
 
+    /* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: whitesmoke;
+  color: black;
+  font-size: 30px;
+}
+
+
+   .logo {
+    margin: 0 auto;
+    border: none;
+    min-height: fit-content;
+    max-height: 250px;
+    }
+
   .overlay {
     height: 100%;
     width: 0;
@@ -20,8 +37,8 @@ text-transform: uppercase;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: black;
-    background-color: black;
+    background-color: white;
+    background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -44,7 +61,7 @@ text-transform: uppercase;
   }
   
   .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: white;
   }
   
   .overlay .closebtn {
@@ -86,12 +103,13 @@ text-transform: uppercase;
     width: 150px;
     height: 100px;  
     border-color: blue;
+  }
   
     /* Header/Logo Title */
 .header {
   padding: 60px;
   text-align: center;
-  background: #1abc9c;
+  background: whitesmoke;
   color: white;
   font-size: 45px;
 }
@@ -104,6 +122,7 @@ text-transform: uppercase;
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
 }
 
 .container {
