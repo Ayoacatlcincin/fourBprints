@@ -1,5 +1,6 @@
 p {
     font-family: Arial;
+    color: white;
      }
   h1 {
  color: white;
@@ -11,6 +12,15 @@ p {
 }
   .title {                      
 text-transform: uppercase;
+}
+
+ul{
+color: white;
+}
+.nav{
+  font-size:30px;
+  cursor:pointer;
+  color: white;
 }
 
     /* Header/Logo Title */
@@ -80,15 +90,6 @@ text-transform: uppercase;
     }
   }
 
-  .logo {
-    background-image: url("logo1.png");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 500px;
-    position: relative;
-  }
-
   .contact {
     font-size: 30px;
     font-family: Arial;
@@ -109,7 +110,7 @@ text-transform: uppercase;
 .header {
   padding: 60px;
   text-align: center;
-  background: whitesmoke;
+  background: rgb(240, 239, 239);
   color: white;
   font-size: 45px;
 }
