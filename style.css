@@ -11,6 +11,7 @@ p {
   .main_header {
     color: black;
     font-family: Arial;
+    background-image: url("images\colorsshirts.png");
 }
 
   .title {                      
