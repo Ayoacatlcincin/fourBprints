@@ -91,7 +91,7 @@ font-size: 23px;
   }
   
   .overlay a:hover, .overlay a:focus {
-    color: white;
+    color: rgb(67, 6, 233);
   }
   
   .overlay .closebtn {
