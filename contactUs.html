@@ -48,34 +48,52 @@
                 
                   <div class="containercontact">
 
-                    <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbyMTsbrpyS0t72TilzYV0Ap82wRVDHU918oMgWZK2yhcI8NH0I/exec">
-          
+                    <!-- START HERE -->
+   <link rel="stylesheet" href="pure.css">
+   <link rel="stylesheet" href="style.css">
 
-                      <label for="fname">First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+   
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycby-Q-oAr4b2fWLDTrmW_lz2zQgRcBwgE5Qhe_Doh5RwtSUd10PO/exec">
+    <!-- change the form action to your script url -->
 
-                      <label for="lname">Last Name</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <div class="form-elements">
+      <fieldset class="pure-group">
+        <label for="name">Name: </label>
+        <input id="name" name="name" placeholder="What your Mom calls you" />
+      </fieldset>
 
-                      <label for="email">Email Address</label>
-                      <input type="text" id="email" name="email" placeholder="Your email address..">
-                      
+      <fieldset class="pure-group">
+        <label for="message">Message: </label>
+        <textarea id="message" name="message" rows="10"
+        placeholder="Tell us what's on your mind..."></textarea>
+      </fieldset>
 
-                      <label for="message">Tell how we can help?</label>
-                      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+      <fieldset class="pure-group">
+        <label for="email"><em>Your</em> Email Address:</label>
+        <input id="email" name="email" type="email" value=""
+        required placeholder="your.name@email.com"/>
+        <span class="email-invalid" style="display:none">
+          Must be a valid email address</span>
+      </fieldset>
 
-                      <button >
-                        Send</button>
 
-                    </form>
-                    <div style="display:none;" id="thankyou_message">
-                      <h2>
-                          <em>Thanks</em> for contacting us!
-                          We will get back to you soon!
-                      </h2>
-                    </div>
-                      <!-- Submit the Form to Google Using "AJAX" -->
-                      <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>      
+      <button >
+        Send</button>
+    </div>
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="thankyou_message" style="display:none;">
+      <h2><em>Thanks</em> for contacting us!
+        We will get back to you soon!</h2>
+    </div>
+
+  </form>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="form-submission-handler.js"></script>
+<!-- END -->     
               
                   
                   </div>
