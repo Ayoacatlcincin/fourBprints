@@ -1,7 +1,14 @@
 p {
     font-family: Arial;
     color: white;
-     }
+    font-size: 25px;
+}
+
+.par2 {
+  font-family: Arial;
+  color: black;
+  font-size: 25px;
+}
 
   h1 {
  color: white;
@@ -20,6 +27,7 @@ text-transform: uppercase;
 
 ul{
 color: white;
+font-size: 23px;
 }
 
 .nav{
@@ -90,7 +98,7 @@ color: white;
     position: absolute;
     top: 20px;
     right: 45px;
-    font-size: 60px;
+    font-size: 35px;
   }
   
   @media screen and (max-height: 450px) {
@@ -152,7 +160,9 @@ body {
 }
 
 .xlarge-font {
-  font-size: 28px 
+  font-size: 40px;
+  color: red;
+  font-family: Helvetica;
 }
 
 .button {
