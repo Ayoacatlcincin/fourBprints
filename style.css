@@ -2,14 +2,17 @@ p {
     font-family: Arial;
     color: white;
      }
+
   h1 {
  color: white;
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      }
+
   .main_header {
     color: black;
     font-family: Arial;
 }
+
   .title {                      
 text-transform: uppercase;
 }
@@ -17,6 +20,7 @@ text-transform: uppercase;
 ul{
 color: white;
 }
+
 .nav{
   font-size:30px;
   cursor:pointer;
@@ -32,8 +36,6 @@ color: white;
   font-size: 45px;
 }
 
-
-
    .logo {
     margin: 0 auto;
     border: none;
@@ -44,6 +46,7 @@ color: white;
     max-width: 200%;
     max-height: 200%;
     height: auto;
+    text-align: center;
     }
 
   .overlay {
@@ -111,9 +114,6 @@ color: white;
     height: 100px;  
     border-color: blue;
   }
-  
-
-
 
 * {
   box-sizing:border-box;
@@ -126,7 +126,8 @@ body {
 }
 
 .container {
-  padding: 64px;
+  padding: 5px;
+  margin-left: 26px;
 }
 
 .row:after {
@@ -138,7 +139,7 @@ body {
 .column-66 {
   float: left;
   width: 66.66666%;
-  padding: 20px;
+  padding: 5px;
 }
 
 .column-33 {
@@ -147,12 +148,8 @@ body {
   padding: 20px;
 }
 
-.large-font {
-  font-size: 48px;
-}
-
 .xlarge-font {
-  font-size: 28px
+  font-size: 28px 
 }
 
 .button {
@@ -175,9 +172,6 @@ img {
   .column-33 {
     width: 100%;
     text-align: center;
-  }
-  img {
-    margin: auto;
   }
 }
 
