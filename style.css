@@ -49,7 +49,6 @@ color: white;
     max-height: 100%;*/
     height: 200px;
     text-align: center;
-    background-image: url("images\colorsshirts.png");
     background-repeat: repeat;
     }
 
@@ -209,7 +208,6 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-}
 textarea {
   width: 100%;
 }
