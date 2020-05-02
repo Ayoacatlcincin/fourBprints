@@ -9,9 +9,9 @@ p {
      }
 
   .main_header {
-    color: black;
+    color: rgb(219, 35, 35);
     font-family: Arial;
-    background-image: url("images\colorsshirts.png");
+    
 }
 
   .title {                      
