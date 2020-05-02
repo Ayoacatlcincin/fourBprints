@@ -23,7 +23,14 @@ color: white;
   color: white;
 }
 
-    /* Header/Logo Title */
+       /* Header/Logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: rgb(240, 239, 239);
+  color: rgb(5, 5, 5);
+  font-size: 45px;
+}
 
 
 
@@ -105,14 +112,7 @@ color: white;
     border-color: blue;
   }
   
-    /* Header/Logo Title */
-.header {
-  padding: 60px;
-  text-align: center;
-  background: rgb(240, 239, 239);
-  color: white;
-  font-size: 45px;
-}
+
 
 
 * {
