@@ -9,8 +9,9 @@ p {
      }
 
   .main_header {
-    color: black;
+    color: rgb(219, 35, 35);
     font-family: Arial;
+    
 }
 
   .title {                      
@@ -29,24 +30,27 @@ color: white;
 
        /* Header/Logo Title */
 .header {
-  padding: 10px;
+  padding: 5px;
   text-align: center;
-  background: rgb(240, 239, 239);
-  color: rgb(5, 5, 5);
+  background-image: url("images\colorsshirts.png");
+  background-repeat: repeat;
+  
   font-size: 45px;
 }
 
    .logo {
     margin: 0 auto;
     border: none;
-    display: block;
+    /*display: block;*/
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    max-width: 200%;
-    max-height: 200%;
-    height: auto;
+    width: 40%;
+    /*max-width: 100%;
+    max-height: 100%;*/
+    height: 200px;
     text-align: center;
+    background-image: url("images\colorsshirts.png");
+    background-repeat: repeat;
     }
 
   .overlay {
@@ -205,6 +209,33 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-
+}
+textarea {
+  width: 100%;
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); /* this is a green */
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+  float: right;
+}
+#name, #email {
+  width: 50%;
+}
 
 
