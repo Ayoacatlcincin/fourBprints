@@ -254,5 +254,9 @@ textarea {
 #name, #email {
   width: 50%;
 }
-
+.header_border {
+  background-image: url(images/colorsshirts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
