@@ -38,12 +38,25 @@ font-size: 23px;
 
        /* Header/Logo Title */
 .header {
-  padding: 5px;
+  padding: 0px;
   text-align: center;
-  font-size: 45px;
+  font-size: 0px;
   background-color: white;
 }
+.header_border {
+  background-image: url(images/colorsshirts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: -15px;
+  padding-top: 0;
+  
+  
+}
 
+h3 {
+  opacity: 0.01;
+}
    .logo {
     margin: 0 auto;
     border: none;
@@ -253,16 +266,7 @@ textarea {
 #name, #email {
   width: 50%;
 }
-.header_border {
-  background-image: url(images/colorsshirts.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-}
 
-h3 {
-  opacity: 0.01;
-}
 
 
 
