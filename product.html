@@ -6,7 +6,6 @@
 
         <link href="./style.css" type="text/css" rel="stylesheet">      
         
-        <script type="text/javascript" src="slideshow.js"></script>
 
           <title></title>
 
@@ -71,6 +70,36 @@
                 <h1 class="xlarge-font"><b>How it works?</b></h1>               
                 <p class="par2"><span style="font-size:36px">Contact our artist</span> <a href="contactUs.html">here</a>and work with our team to make yo
                 
+                  <div class="Slideshow-1">
+                    <img class="mySlides" src="images\warriorshoodie.jpg" style="width:100%">
+                    <img class="mySlides" src="images\warriorsjacket.jpg" style="width:100%">
+                    <img class="mySlides" src="images\warriorsshirt.jpg" style="width:100%">
+                    <img class="mySlides" src="images\warriorsbag.jpg" style="width:100%">
+                  
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                  </div>
+                  
+                  <script>
+                  var slideIndex = 1;
+                  showDivs(slideIndex);
+                  
+                  function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                  }
+                  
+                  function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";  
+                    }
+                    x[slideIndex-1].style.display = "block";  
+                  }
+                  </script>
+                  
 
               </div>
             </div>

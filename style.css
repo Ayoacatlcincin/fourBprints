@@ -266,3 +266,6 @@ textarea {
   width: 50%;
 }
 
+.mySlides {
+  display:none;
+}
